@@ -111,7 +111,7 @@ select {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   list-style-image: url(./Vector.png);
-  padding-: 0 20px;
+  padding: 0 20px;
   /* Стили для маркированного списка во второй секции */
 }
 
