@@ -39,7 +39,6 @@ header span {
 }
 
 .main-title {
-  font-family: Inter;
   font-size: 48px;
   font-weight: 700;
   line-height: 58.09px;
@@ -53,7 +52,6 @@ header span {
 }
 
 .main-text {
-  font-family: Inter;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.78px;
@@ -72,8 +70,8 @@ header span {
 
 .about-section {
   background-color: #ffffff;
-  padding-top: 173px;
-  padding-bottom: 173px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   /* Стили для второй секции */
 }
 
@@ -88,50 +86,147 @@ select {
   background-image: url(./image.svg);
   background-repeat: no-repeat;
   background-position: right 0 top 50%;
+  background-color: #ffffff;
   /* Стили для выпадающего списка */
 }
 
 .section-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #303030;
+  padding-bottom: 20px;
   /* Стили для заголовков во второй секции */
 }
 
 .frameworks-list {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  list-style-image: url(./Vector.png);
+  padding-left: 20px;
   /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #303030;
+  padding-left: 20px;
   /* Стили для нумерованного списка во второй секции */
 }
 
 .label {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
   /* Стили для подписей чекбоксов */
 }
 
 .text-field {
+  width: 330px;
+  height: 36px;
+  gap: 0px;
+  border-radius: 5px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background: #ffffff;
+  border: 1px solid #3030304d;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
   /* Стили для односточного поля ввода текста */
 }
 
 .btn {
+  width: 125px;
+  height: 36px;
+  top: 1525px;
+  left: 339px;
+  gap: 0px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.94px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background: #2965f1;
+  color: #ffffff;
   /* Стили для кнопки */
 }
 
 .line {
+  width: 1440px;
+  height: 0px;
+  top: 1621px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  margin-bottom: 60px;
+  margin-top: 60px;
   /* Стили для линии */
 }
 
 table {
+  width: 300px;
+  height: 196px;
+  top: 1681px;
+  gap: 0px;
+  opacity: 0px;
+  border: 1px;
+  border-color: #95a1bb;
+  border-collapse: collapse;
   /* Стили для таблицы */
 }
 
 th,
 td {
+  padding: 10px;
   /* Стили для ячеек таблицы */
 }
 
 footer {
+  width: 1440px;
+  height: 70px;
+  top: 1977px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #a3a7ff4d;
+  padding: 23px 0;
+
   /* Стили для футера */
 }
 
 .footer-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2965f1;
+
   /* Стили для футера */
 }
